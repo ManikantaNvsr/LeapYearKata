@@ -11,7 +11,12 @@ public class LeapYear {
         }
     }
 
-    public boolean isItDivisibleByHundred(int i) {
-        return false;
+    // Finding whether the input year is divisible by 100 or not
+    public static boolean isItDivisibleByHundred(int year) {
+        if (year > 0 && year % 100 == 0) {
+            return true;
+        } else {
+            return false;
+        }
     }
 }
