@@ -21,4 +21,12 @@ public class LeapYearTests {
         boolean flag = leapYear.isItDivisibleByHundred(1200);
         assertTrue(flag);
     }
+
+    // test case for checking whether the given input year is divisible by 4
+    @Test
+    public void checkDivisibilityByFour() {
+        LeapYear leapYear = new LeapYear();
+        boolean flag = leapYear.isItDivisibleByFour(1200);
+        assertTrue(flag);
+    }
 }

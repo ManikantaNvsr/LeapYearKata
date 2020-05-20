@@ -19,4 +19,8 @@ public class LeapYear {
             return false;
         }
     }
+
+    public boolean isItDivisibleByFour(int i) {
+        return false;
+    }
 }
