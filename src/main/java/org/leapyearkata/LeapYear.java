@@ -28,4 +28,8 @@ public class LeapYear {
             return false;
         }
     }
+
+    public boolean isItLeapYear(int i) {
+        return false;
+    }
 }

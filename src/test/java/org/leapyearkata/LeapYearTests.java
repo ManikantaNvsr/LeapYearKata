@@ -29,4 +29,12 @@ public class LeapYearTests {
         boolean flag = leapYear.isItDivisibleByFour(1200);
         assertTrue(flag);
     }
+
+    // test case for checking whether the given input year is Leap Year or not
+    @Test
+    public void checkLeapYearCriteria() {
+        LeapYear leapYear = new LeapYear();
+        boolean flag = leapYear.isItLeapYear(1200);
+        assertTrue(flag);
+    }
 }
