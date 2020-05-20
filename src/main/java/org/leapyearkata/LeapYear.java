@@ -20,7 +20,12 @@ public class LeapYear {
         }
     }
 
-    public boolean isItDivisibleByFour(int i) {
-        return false;
+    // Finding whether the input year is divisible by 4 or not
+    public static boolean isItDivisibleByFour(int year) {
+        if (year > 0 && year % 4 == 0) {
+            return true;
+        } else {
+            return false;
+        }
     }
 }
