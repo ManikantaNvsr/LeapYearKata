@@ -26,6 +26,8 @@ public class LeapYear {
                     System.out.println(year + " is not a Leap Year.");
                 }
             }
+        } else {
+            System.out.println("Please provide a input year as program argument to check the Leap Year Property.");
         }
     }
 
