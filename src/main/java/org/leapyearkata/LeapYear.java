@@ -63,6 +63,10 @@ public class LeapYear {
         divisibilityCheckByFour = isItDivisibleByFour(year);
         divisibilityCheckByFourHundred = isItDivisibleByFourHundred(year);
         divisibilityCheckByHundred = isItDivisibleByHundred(year);
+        return checkLeapYearCriteria();
+    }
+
+    private static boolean checkLeapYearCriteria() {
         // If the given year is divisible by 400 then it's surely a Leap Year
         if (divisibilityCheckByFourHundred) {
             return true;
