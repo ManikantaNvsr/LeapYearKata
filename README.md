@@ -12,12 +12,12 @@ Once downloaded, run the following command in command prompt:
 `java -jar LeapYear.jar 2000`
 <br>
 Output:
-![image](https://github.com/ManikantaNvsr/LeapYearKata/blob/master/2000asInput.PNG)
+![image](https://github.com/ManikantaNvsr/LeapYearKata/blob/master/images/2000asInput.PNG)
 <br>
 To Execute for multiple years, run the above command with input year/years in the Program Arguments delimited by space.
 Example: `java -jar LeapYear.jar 2008 2012 2016`
 Output:
-![image](https://github.com/ManikantaNvsr/LeapYearKata/blob/master/MultipleInputConsole.PNG)
+![image](https://github.com/ManikantaNvsr/LeapYearKata/blob/master/images/MultipleInputConsole.PNG)
 
 #### Process through IntelliJ:
 Clone/Download the LeapYearKata Project Folder using:
@@ -25,10 +25,10 @@ Clone/Download the LeapYearKata Project Folder using:
 `https://github.com/ManikantaNvsr/LeapYearKata.git`
 <br>
 Right-Click on Java LeapYear Class and then select `Edit 'LeapYear.main()'` and then provide program arguments shown below:
-![image](https://github.com/ManikantaNvsr/LeapYearKata/blob/master/ProgramArgumentsIntelliJ.PNG)
+![image](https://github.com/ManikantaNvsr/LeapYearKata/blob/master/images/ProgramArgumentsIntelliJ.PNG)
 After giving program arguments, Right Click on the Java LeapYear Class and then click `Run 'LeapYear.main()'` shown below:
-![image](https://github.com/ManikantaNvsr/LeapYearKata/blob/master/Run.png)
+![image](https://github.com/ManikantaNvsr/LeapYearKata/blob/master/images/Run.png)
 <br>
 ##### To Run TestCases
 Right-Click on Project Folder and click on `Run 'AllTests'`, the following output is displayed:
-![image](https://github.com/ManikantaNvsr/LeapYearKata/blob/master/RunTests.png)
+![image](https://github.com/ManikantaNvsr/LeapYearKata/blob/master/images/RunTests.png)
