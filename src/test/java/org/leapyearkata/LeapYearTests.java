@@ -10,7 +10,7 @@ public class LeapYearTests {
     @Test
     public void checkDivisibilityByFourHundred() {
         LeapYear leapYear = new LeapYear();
-        boolean flag = leapYear.isItDivisibleByFourHundred(1200);
+        boolean flag = leapYear.isItDivisibleByFourHundred(1600);
         assertTrue(flag);
     }
 
@@ -18,7 +18,7 @@ public class LeapYearTests {
     @Test
     public void checkDivisibilityByHundred() {
         LeapYear leapYear = new LeapYear();
-        boolean flag = leapYear.isItDivisibleByHundred(1200);
+        boolean flag = leapYear.isItDivisibleByHundred(1600);
         assertTrue(flag);
     }
 
@@ -26,7 +26,7 @@ public class LeapYearTests {
     @Test
     public void checkDivisibilityByFour() {
         LeapYear leapYear = new LeapYear();
-        boolean flag = leapYear.isItDivisibleByFour(1200);
+        boolean flag = leapYear.isItDivisibleByFour(1600);
         assertTrue(flag);
     }
 
@@ -34,7 +34,7 @@ public class LeapYearTests {
     @Test
     public void checkLeapYearCriteria() {
         LeapYear leapYear = new LeapYear();
-        boolean flag = leapYear.isItLeapYear(1200);
+        boolean flag = leapYear.isItLeapYear(1600);
         assertTrue(flag);
     }
 }
