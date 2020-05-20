@@ -10,4 +10,8 @@ public class LeapYear {
             return false;
         }
     }
+
+    public boolean isItDivisibleByHundred(int i) {
+        return false;
+    }
 }
